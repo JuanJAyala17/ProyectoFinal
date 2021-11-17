@@ -1,0 +1,66 @@
+/*Estilos del Sidebar*/
+.container .sidebar {
+    grid-column: 3 / -1;
+    grid-row: 2 / auto;
+    /* padding: 15px; */
+    background-color: #F2CF66;
+    border: 2px solid #4EBFBF;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, .75);   
+}
+
+.container .sidebar .title {
+    background-color: #4EBFBF;
+    color: #F25C78;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container .sidebar .sidebar__container {
+    padding: 40px;
+}
+
+.container .sidebar .sidebar__container .sidebar__container--knowledge p {
+    padding: 10px;
+    color: #0E3D59;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.container .sedibar .sidebar__container li {
+    display: flex;
+    align-items: center;
+}
+
+.container .sidebar .sidebar__container p {
+    color: #0E3D59;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.container .sidebar .sidebar__container h4 {
+    margin: 5px;
+    padding: 3px;
+    color: #F25C78;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+.container .sidebar .sidebar__container--link a {
+    text-decoration: none;
+    color: #4EBFBF;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.container .sidebar .sidebar__container--link {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    width: 50%;
+    background-color: #F25C78;
+    border-radius: 10px;
+}

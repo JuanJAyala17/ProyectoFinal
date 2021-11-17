@@ -16,6 +16,5 @@
 .container .content-2,
 .container .footer {
     background-color: #FFF;
-    padding: 20px;
-    border-radius: 4px;
+    /* padding: 20px; */
 }
