@@ -1,0 +1,21 @@
+/*Estilos del contenedor principal*/
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.container > div,
+.container .header,
+.container .content-1,
+.container .sidebar,
+.container .content-2,
+.container .footer {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 4px;
+}

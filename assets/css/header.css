@@ -1,0 +1,29 @@
+/*Estilos del Header*/
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Rubik:wght@300&display=swap");
+.container .header {
+  background-color: #0e3d59;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+}
+
+.container h1 {
+  color: #f25c78;
+  font-size: 105px;
+  font-weight: 800;
+  font-family: "Praise", cursive;
+}
+
+.container .yellow {
+    font-size: 30px;
+    color: #F2CF66;
+    height: 90px;
+}
+
+.container .red {
+    background-color: #4EBFBF;
+    color: #F25C78;
+    font-size: 25px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, .75);
+}
