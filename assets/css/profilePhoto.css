@@ -14,9 +14,11 @@
 } 
 
 .container .content-3 .content-3__figure img {
+    margin: 5px 5px;
     padding: 25px;
     width: 85%;
     height: 87%;
+    border: outset #F25C78 1px;
 }
 
 .container .content-3 figcaption {
