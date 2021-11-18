@@ -29,3 +29,8 @@
     margin: 10px 10px;
 }
 
+@media screen and (max-width: 480px) {
+    .container .content-3 {
+        grid-column: 1 / -1;
+    }
+  }

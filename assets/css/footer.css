@@ -10,7 +10,7 @@
     background-color: #4EBFBF;
     color: #F25C78;
     padding: 5px;
-    font-size: 25px;
+    font-size: 30x;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2,1fr);
-    padding: 23px;
+    padding: 18px;
 
 }
 
@@ -38,7 +38,7 @@
     font-weight: 300;
 }
 
-.container .footer .footer__references .footer__references--address  img{
+.container .footer .footer__references .footer__references--address  img {
     margin: 3px 3px;
     width: 25%;
     height: 25%;
@@ -46,3 +46,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+    .container .footer .footer__references .footer__references--address  img {
+        width: 90%;
+        height: 90%;
+    }
+  }
