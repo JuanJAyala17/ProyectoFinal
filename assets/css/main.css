@@ -19,7 +19,7 @@
     color: #F2CF66;
     font-size: 18px;
     font-weight: 300;
-    text-align: justify;
+    text-align: left;
 }
 
 @media screen and (max-width: 480px) {
