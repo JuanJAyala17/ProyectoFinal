@@ -52,4 +52,14 @@
         width: 90%;
         height: 90%;
     }
+
+    .container .footer .footer__references .footer__references--contacts {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .container .footer .footer__references .footer__references--address {
+        padding: 15px;
+        font-size: 15px;
+    }
   }
