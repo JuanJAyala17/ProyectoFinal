@@ -1,3 +1,12 @@
+body {
+    background-color: #0E3D59;
+    transition: .3s ease all;
+}
+
+body.light {
+    background-color: #B6E1F0;
+}
+
 h1 {
     text-align: center;
     position: relative;
@@ -5,9 +14,6 @@ h1 {
     margin: 50px auto;
 }
 
-body {
-    background-color: #F2CF66;
-}
 
 h1::before {
     content: "";
@@ -15,17 +21,71 @@ h1::before {
     width: 100%;
     height: 2px;
     position: absolute;
-    background-color: #0E3D59;
+    background-color: #f25c78;
     top: 50%;
     z-index: -1;
+    transition: .3s ease all;
+}
+
+body.light h1::before {
+    background-color: #66E05F;
 }
 
 h1 span {
-    color: #0E3D59;
-    background-color: #F2CF66;
+    color: #f25c78;
+    background-color: #0E3D59;
     padding: 0 15px;
+    transition: .3s ease all;
 }
 
+body.light h1 span {
+    color: #66E05F;
+    background-color: #B6E1F0;
+} 
+
+.switch {
+    background-color: #0E3D59;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+  
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+  
+.switch.active {
+    background: #5ff0f0;
+    color: #000;
+}
+  
+  .switch.active::after {
+    right: 0;
+    left: unset;
+}
+  
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 230px);
@@ -57,4 +117,4 @@ h1 span {
     h1 span {
         padding: 0;
     } 
-}
+} 
